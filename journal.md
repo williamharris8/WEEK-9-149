@@ -1,0 +1,1 @@
+PHASE 1 - During this phase I built the feedback form and used a submit listener to log the three input values. Without event.preventDefault() the browser submits the form and reloads the page and that erases input. With no backend server to receive the data, preventing that lets my JS handle the submission instead.
