@@ -1,1 +1,3 @@
 PHASE 1 - During this phase I built the feedback form and used a submit listener to log the three input values. Without event.preventDefault() the browser submits the form and reloads the page and that erases input. With no backend server to receive the data, preventing that lets my JS handle the submission instead.
+
+PHASE 2 - Went about checking each rule with an if statement and pushed a message into an errors array when one failed. If the array wasnt empty i joined the messages with br and showed them all at once. This lets the user fix it all at once but the messages appear above the form instead of next to their respective fields.
